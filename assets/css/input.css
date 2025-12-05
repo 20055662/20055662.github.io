@@ -1,3 +1,26 @@
+@import "tailwindcss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@theme {
+  --color-lavender: #C5B6FF;
+  --color-lavender-light: #E5DEFF;
+  --color-lavender-dark: #9B8BDB;
+  
+  --color-seafoam: #98F5E1;
+  --color-seafoam-light: #D4F8F0;
+  --color-seafoam-dark: #6BDBC4;
+  
+  --color-blush: #FFB7C5;
+  --color-blush-light: #FFDDE3;
+  --color-blush-dark: #FF8FA3;
+  
+  --color-paper: #FAFAFA;
+  --color-paper-light: #FFFFFF;
+  --color-paper-dark: #F0F0F0;
+  
+  --color-text-light: #4A5568;
+  --color-text-dark: #F7FAFC;
+}

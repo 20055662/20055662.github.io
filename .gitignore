@@ -16,3 +16,6 @@ Thumbs.db
 
 # npm cache (if any)
 .npm/
+
+# tailwind binary
+tailwindcss.exe

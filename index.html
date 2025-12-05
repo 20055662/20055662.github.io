@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jiaping Huang - Junior Developer Portfolio</title>
+        <link href="./assets/css/output.css" rel="stylesheet">
+
+        <!-- Google Fonts: Inter -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body class="font-sans bg-paper text-text-light">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-paper-light shadow-sm">
+        <nav class="max-w-6xl mx-auto flex flex-col p-6 md:p-10">
+            <div class="flex justify-between items-center md:hidden">
+                <a class="text-xl font-semibold text-lavender" href="index.html">Hi!</a>
+                <button id="menu-btn" aria-label="Toggle menu" aria-expanded="false" class="flex flex-col space-y-1">
+                    <span class="block w-6 h-[3px] bg-lavender-light transition-transform duration-300"></span>
+                    <span class="block w-6 h-[3px] bg-lavender transition-transform duration-300"></span>
+                    <span class="block w-6 h-[3px] bg-lavender transition-transform duration-300"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden mt-2 bg-paper-light border border-lavender/20 text-text-light px-6 py-4 rounded-lg transition-all duration-300">
+                <a href="index.html" class="block py-2 hover:text-lavender">Home</a>
+                <a href="projects.html" class="block py-2 hover:text-lavender">Projects</a>
+                <a href="resume.html" class="block py-2 hover:text-lavender">Resume</a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex justify-center gap-8 text-lg font-semibold text-text-light mt-2">
+                <li><a class="hover:text-lavender transition-colors" href="index.html">Home</a></li>
+                <li><a class="hover:text-lavender transition-colors" href="projects.html">Projects</a></li>
+                <li><a class="hover:text-lavender transition-colors" href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="px-6 md:px-12 lg:px-24 py-12 md:py-20 max-w-5xl mx-auto">
+
+        <!-- Hero Section -->
+        <section class="text-center mb-20">
+            <h1 class="text-4xl md:text-5xl font-bold text-text-light mb-6">
+                Hi, I'm <span class="text-lavender">Jiaping</span> — a Junior Developer focused on .NET, Web Development, and Modern Frontend.
+            </h1>
+            <p class="text-lg text-text-light leading-relaxed max-w-3xl mx-auto mb-10">
+                I'm building real-world projects while strengthening my C#, JavaScript, and TailwindCSS skills. I enjoy solving logical problems, refactoring code, and creating clean, maintainable applications.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="projects.html"
+                class="px-6 py-3 bg-lavender text-paper rounded-lg font-semibold hover:bg-lavender-light transition-colors shadow-lg hover:shadow-lavender/20">
+                    View My Projects
+                </a>
+                <a href="resume.html"
+                class="px-6 py-3 border border-lavender text-lavender rounded-lg font-semibold hover:bg-lavender/10 transition-colors">
+                    Download Resume
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-semibold text-center text-text-light mb-10">About Me</h2>
+            <div class="bg-paper-dark border border-lavender/10 rounded-xl p-8 max-w-3xl mx-auto">
+                <ul class="space-y-4 text-text-light">
+                    <li class="flex items-start">
+                        <span class="text-lavender mr-3">•</span>
+                        <span>Junior developer currently studying full-stack fundamentals</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-lavender mr-3">•</span>
+                        <span>Recently built several projects using C#, JavaScript, and TailwindCSS</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-lavender mr-3">•</span>
+                        <span>Strong interest in .NET development and backend logic</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-lavender mr-3">•</span>
+                        <span>Love turning requirements into working applications</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-lavender mr-3">•</span>
+                        <span>Experience with GitHub workflows, version control, branching, refactoring</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-lavender mr-3">•</span>
+                        <span>Currently exploring API integration, clean architecture, and UI components</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-semibold text-center text-text-light mb-10">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Languages -->
+                <div class="bg-paper-dark border border-lavender/10 rounded-xl p-6">
+                    <h3 class="text-xl font-semibold text-lavender mb-4">Languages</h3>
+                    <ul class="space-y-2">
+                        <li class="text-text-light">C#</li>
+                        <li class="text-text-light">HTML</li>
+                        <li class="text-text-light">CSS</li>
+                        <li class="text-text-light">JavaScript</li>
+                    </ul>
+                </div>
+                
+                <!-- Frameworks & Tools -->
+                <div class="bg-paper-dark border border-seafoam/10 rounded-xl p-6">
+                    <h3 class="text-xl font-semibold text-seafoam-dark mb-4">Frameworks & Tools</h3>
+                    <ul class="space-y-2">
+                        <li class="text-text-light">.NET (beginner)</li>
+                        <li class="text-text-light">ASP.NET Core MVC (learning)</li>
+                        <li class="text-text-light">TailwindCSS</li>
+                        <li class="text-text-light">Git, GitHub</li>
+                    </ul>
+                </div>
+                
+                <!-- Concepts -->
+                <div class="bg-paper-dark border border-blush/10 rounded-xl p-6">
+                    <h3 class="text-xl font-semibold text-blush-dark mb-4">Concepts</h3>
+                    <ul class="space-y-2">
+                        <li class="text-text-light">OOP</li>
+                        <li class="text-text-light">Basic API consumption</li>
+                        <li class="text-text-light">DOM manipulation</li>
+                        <li class="text-text-light">Responsive UI</li>
+                        <li class="text-text-light">Code refactoring and debugging</li>
+                        <li class="text-text-light">Version control workflows</li>
+                    </ul>
+                </div>
+                
+                <!-- Soft Skills -->
+                <div class="bg-paper-dark border border-lavender/20 rounded-xl p-6">
+                    <h3 class="text-xl font-semibold text-lavender mb-4">Soft Skills</h3>
+                    <ul class="space-y-2">
+                        <li class="text-text-light">Fast learner</li>
+                        <li class="text-text-light">Detail-oriented</li>
+                        <li class="text-text-light">Improving code quality</li>
+                        <li class="text-text-light">Problem-solver</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-semibold text-center text-text-light mb-10">Featured Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <!-- Project 1 -->
+                <div class="bg-paper-dark border border-lavender/20 rounded-xl p-6 hover:border-lavender/40 hover:shadow-lg transition-all">
+                    <h3 class="text-xl font-semibold text-text-light mb-3">Contractor Tracker (C#/.NET)</h3>
+                    <p class="text-text-light text-sm mb-4">
+                        A .NET-style project simulating contractor management with CRUD operations and data persistence.
+                    </p>
+                    <div class="mb-6">
+                        <span class="inline-block px-3 py-1 bg-lavender/10 text-lavender text-xs font-semibold rounded-full mr-2">C#</span>
+                        <span class="inline-block px-3 py-1 bg-lavender/10 text-lavender text-xs font-semibold rounded-full mr-2">.NET</span>
+                        <span class="inline-block px-3 py-1 bg-lavender/10 text-lavender text-xs font-semibold rounded-full">Console App</span>
+                    </div>
+                    <a href="projects.html#contractor-tracker"
+                    class="block w-full text-center px-4 py-2 bg-lavender text-paper rounded-lg font-semibold hover:bg-lavender-light transition-colors">
+                        View Project
+                    </a>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="bg-paper-dark border border-seafoam/20 rounded-xl p-6 hover:border-seafoam/40 hover:shadow-lg transition-all">
+                    <h3 class="text-xl font-semibold text-text-light mb-3">Smart Car Park System (C# OOP)</h3>
+                    <p class="text-text-light text-sm mb-4">
+                        Focus on data structures and object-oriented design for managing a car park system.
+                    </p>
+                    <div class="mb-6">
+                        <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full mr-2">C#</span>
+                        <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full mr-2">OOP</span>
+                        <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">Data Structures</span>
+                    </div>
+                    <a href="projects.html#car-park-system"
+                    class="block w-full text-center px-4 py-2 bg-seafoam-dark text-paper rounded-lg font-semibold hover:bg-seafoam transition-colors">
+                        View Project
+                    </a>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="bg-paper-dark border border-blush/20 rounded-xl p-6 hover:border-blush/40 hover:shadow-lg transition-all">
+                    <h3 class="text-xl font-semibold text-text-light mb-3">Wordle Game (JavaScript)</h3>
+                    <p class="text-text-light text-sm mb-4">
+                        A web-based puzzle game using DOM logic, event handling, and game state management.
+                    </p>
+                    <div class="mb-6">
+                        <span class="inline-block px-3 py-1 bg-blush/10 text-blush-dark text-xs font-semibold rounded-full mr-2">JavaScript</span>
+                        <span class="inline-block px-3 py-1 bg-blush/10 text-blush-dark text-xs font-semibold rounded-full mr-2">HTML/CSS</span>
+                        <span class="inline-block px-3 py-1 bg-blush/10 text-blush-dark text-xs font-semibold rounded-full">DOM</span>
+                    </div>
+                    <a href="projects.html#wordle-game"
+                    class="block w-full text-center px-4 py-2 bg-blush-dark text-paper rounded-lg font-semibold hover:bg-blush transition-colors">
+                        View Project
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-semibold text-center text-text-light mb-10">Get In Touch</h2>
+            <div class="bg-paper-dark border border-lavender/10 rounded-xl p-8 max-w-2xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                    <div>
+                        <h3 class="text-lg font-semibold text-lavender mb-2">Email</h3>
+                        <a href="mailto:20055662@tafe.wa.edu.au" class="text-text-light hover:text-lavender transition-colors">
+                            20055662@tafe.wa.edu.au
+                        </a>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-lavender mb-2">GitHub</h3>
+                        <a href="https://github.com/20055662" class="text-text-light hover:text-lavender transition-colors">
+                            github.com/20055662
+                        </a>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-lavender mb-2">LinkedIn</h3>
+                        <a href="#" class="text-text-light hover:text-lavender transition-colors">
+                            Coming Soon
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-paper-light border-t border-lavender/10 py-10 mt-10">
+        <div class="text-center max-w-5xl mx-auto">
+            <p class="text-text-light font-bold">&copy; 2025 Jiaping Huang. All rights reserved</p>
+            <div class="flex justify-center gap-6 text-sm mt-4">
+                <a href="#" class="text-text-light hover:text-lavender transition-colors">LinkedIn</a>
+                <a href="https://github.com/20055662" class="text-text-light hover:text-lavender transition-colors">GitHub</a>
+                <a href="mailto:20055662@tafe.wa.edu.au" class="text-text-light hover:text-lavender transition-colors">Email</a>
+            </div>
+            <p class="mt-6 text-text-light text-sm opacity-80">
+                Built with <span class="text-lavender">TailwindCSS</span> • Hosted on GitHub Pages
+            </p>
+        </div>
+    </footer>
+    <script src="./assets/js/btn.js" defer></script>
+    </body>
+</html>
