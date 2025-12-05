@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects - Jiaping Huang</title>
+        <link href="./assets/css/output.css" rel="stylesheet">
+
+        <!-- Google Fonts: Inter -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body class="font-sans bg-paper text-text-light">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-paper-light shadow-sm">
+        <nav class="max-w-6xl mx-auto flex flex-col p-6 md:p-10">
+            <div class="flex justify-between items-center md:hidden">
+                <a class="text-xl font-semibold text-lavender" href="index.html">Hi!</a>
+                <button id="menu-btn" aria-label="Toggle menu" aria-expanded="false" class="flex flex-col space-y-1">
+                    <span class="block w-6 h-[3px] bg-lavender-light transition-transform duration-300"></span>
+                    <span class="block w-6 h-[3px] bg-lavender transition-transform duration-300"></span>
+                    <span class="block w-6 h-[3px] bg-lavender transition-transform duration-300"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden mt-2 bg-paper-light border border-lavender/20 text-text-light px-6 py-4 rounded-lg transition-all duration-300">
+                <a href="index.html" class="block py-2 hover:text-lavender">Home</a>
+                <a href="projects.html" class="block py-2 hover:text-lavender">Projects</a>
+                <a href="resume.html" class="block py-2 hover:text-lavender">Resume</a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex justify-center gap-8 text-lg font-semibold text-text-light mt-2">
+                <li><a class="hover:text-lavender transition-colors" href="index.html">Home</a></li>
+                <li><a class="hover:text-lavender transition-colors" href="projects.html">Projects</a></li>
+                <li><a class="hover:text-lavender transition-colors" href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="px-6 md:px-12 lg:px-24 py-12 md:py-20 max-w-5xl mx-auto">
+
+        <!-- Page Header -->
+        <section class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-text-light mb-6">
+                My <span class="text-lavender">Projects</span>
+            </h1>
+            <p class="text-lg text-text-light leading-relaxed max-w-3xl mx-auto">
+                A collection of projects showcasing my journey in software development, from C# console applications to interactive web apps with JavaScript.
+            </p>
+        </section>
+
+        <!-- Project 1: Contractor Tracker -->
+        <section id="contractor-tracker" class="mb-16 scroll-mt-20">
+            <div class="bg-paper-dark border border-lavender/20 rounded-xl p-8 hover:border-lavender/40 hover:shadow-lg transition-all">
+                <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-6">
+                    <div>
+                        <span class="inline-block px-3 py-1 bg-lavender/20 text-lavender text-xs font-semibold rounded-full mb-3">
+                            In Progress
+                        </span>
+                        <h2 class="text-2xl font-bold text-text-light mb-2">Contractor Tracker (C# Project)</h2>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="inline-block px-3 py-1 bg-lavender/10 text-lavender text-xs font-semibold rounded-full">C#</span>
+                            <span class="inline-block px-3 py-1 bg-lavender/10 text-lavender text-xs font-semibold rounded-full">.NET Style Architecture</span>
+                            <span class="inline-block px-3 py-1 bg-lavender/10 text-lavender text-xs font-semibold rounded-full">OOP</span>
+                            <span class="inline-block px-3 py-1 bg-lavender/10 text-lavender text-xs font-semibold rounded-full">Git</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-lavender mb-3">Summary</h3>
+                    <p class="text-text-light leading-relaxed">
+                        A contractor & job assignment tracker designed to show backend logic, data structures, CRUD-like behavior, and clean object-oriented patterns.
+                    </p>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-lavender mb-3">What I Learned</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                        <div class="flex items-center">
+                            <span class="text-lavender mr-2">•</span>
+                            <span class="text-text-light">Data modelling</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-lavender mr-2">•</span>
+                            <span class="text-text-light">Input validation</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-lavender mr-2">•</span>
+                            <span class="text-text-light">Object design</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-lavender mr-2">•</span>
+                            <span class="text-text-light">Code refactoring</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-lavender mr-2">•</span>
+                            <span class="text-text-light">Separation of concerns</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pt-4 border-t border-lavender/10">
+                    <h3 class="text-lg font-semibold text-lavender mb-3">Links</h3>
+                    <a href="#" class="inline-flex items-center px-4 py-2 bg-lavender text-paper rounded-lg font-semibold hover:bg-lavender-light transition-colors">
+                        <span>GitHub Repository</span>
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project 2: Smart Car Park System -->
+        <section id="car-park-system" class="mb-16 scroll-mt-20">
+            <div class="bg-paper-dark border border-seafoam/20 rounded-xl p-8 hover:border-seafoam/40 hover:shadow-lg transition-all">
+                <div class="mb-6">
+                    <h2 class="text-2xl font-bold text-text-light mb-4">Smart Car Park System (C#)</h2>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">C#</span>
+                        <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">OOP</span>
+                        <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">Collections</span>
+                        <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">Console App</span>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-seafoam-dark mb-3">Summary</h3>
+                    <p class="text-text-light leading-relaxed">
+                        Console-based parking management app demonstrating logic, classes, objects, and rule-based operations with a focus on clean architecture and maintainable code.
+                    </p>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-seafoam-dark mb-3">Highlights</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-paper border border-seafoam/10 rounded-lg p-4">
+                            <h4 class="font-semibold text-seafoam-dark mb-2">Ticket Generation</h4>
+                            <p class="text-text-light text-sm">Implemented automatic ticket generation with unique identifiers and timestamps</p>
+                        </div>
+                        <div class="bg-paper border border-seafoam/10 rounded-lg p-4">
+                            <h4 class="font-semibold text-seafoam-dark mb-2">Slot Management</h4>
+                            <p class="text-text-light text-sm">Efficient management of parking slots with real-time availability tracking</p>
+                        </div>
+                        <div class="bg-paper border border-seafoam/10 rounded-lg p-4">
+                            <h4 class="font-semibold text-seafoam-dark mb-2">Code Refactoring</h4>
+                            <p class="text-text-light text-sm">Improved code clarity and maintainability through iterative refactoring</p>
+                        </div>
+                        <div class="bg-paper border border-seafoam/10 rounded-lg p-4">
+                            <h4 class="font-semibold text-seafoam-dark mb-2">Rule-based Operations</h4>
+                            <p class="text-text-light text-sm">Implemented business logic for parking rules and fee calculations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project 3: Wordle Game -->
+        <section id="wordle-game" class="mb-16 scroll-mt-20">
+            <div class="bg-paper-dark border border-blush/20 rounded-xl p-8 hover:border-blush/40 hover:shadow-lg transition-all">
+                <div class="mb-6">
+                    <h2 class="text-2xl font-bold text-text-light mb-4">Wordle Game (JavaScript)</h2>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="inline-block px-3 py-1 bg-blush/10 text-blush-dark text-xs font-semibold rounded-full">HTML</span>
+                        <span class="inline-block px-3 py-1 bg-blush/10 text-blush-dark text-xs font-semibold rounded-full">CSS</span>
+                        <span class="inline-block px-3 py-1 bg-blush/10 text-blush-dark text-xs font-semibold rounded-full">JavaScript</span>
+                        <span class="inline-block px-3 py-1 bg-blush/10 text-blush-dark text-xs font-semibold rounded-full">DOM Manipulation</span>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-blush-dark mb-3">Summary</h3>
+                    <p class="text-text-light leading-relaxed">
+                        A playable Wordle clone demonstrating DOM manipulation, real-time input validation, and game logic with interactive feedback and keyboard support.
+                    </p>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-blush-dark mb-3">Highlights</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <span class="text-blush-dark mr-2 mt-1">•</span>
+                            <span class="text-text-light"><strong>Keyboard interactions:</strong> Full virtual keyboard with event listeners and visual feedback</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-blush-dark mr-2 mt-1">•</span>
+                            <span class="text-text-light"><strong>Win/loss detection:</strong> Real-time game state tracking and result determination</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-blush-dark mr-2 mt-1">•</span>
+                            <span class="text-text-light"><strong>Color feedback logic:</strong> Visual indicators for correct letters, positions, and invalid guesses</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-blush-dark mr-2 mt-1">•</span>
+                            <span class="text-text-light"><strong>Responsive design:</strong> Works seamlessly on desktop and mobile devices</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project 4: Movie API App -->
+        <section id="movie-api-app" class="mb-16 scroll-mt-20">
+            <div class="bg-paper-dark border border-lavender/20 rounded-xl p-8 hover:border-lavender/40 hover:shadow-lg transition-all">
+                <div class="mb-6">
+                    <h2 class="text-2xl font-bold text-text-light mb-4">Movie API App (JavaScript + API)</h2>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="inline-block px-3 py-1 bg-lavender/10 text-lavender text-xs font-semibold rounded-full">JavaScript</span>
+                        <span class="inline-block px-3 py-1 bg-lavender/10 text-lavender text-xs font-semibold rounded-full">Fetch API</span>
+                        <span class="inline-block px-3 py-1 bg-lavender/10 text-lavender text-xs font-semibold rounded-full">TailwindCSS</span>
+                        <span class="inline-block px-3 py-1 bg-lavender/10 text-lavender text-xs font-semibold rounded-full">JSON</span>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-lavender mb-3">Summary</h3>
+                    <p class="text-text-light leading-relaxed">
+                        A movie search and details application using a public API. Shows ability to work with JSON, endpoints, async/await, and modern UI design principles.
+                    </p>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-lavender mb-3">Highlights</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="bg-paper border border-lavender/10 rounded-lg p-4">
+                            <h4 class="font-semibold text-lavender mb-2">API Integration</h4>
+                            <p class="text-text-light text-sm">Fetching and handling data from external REST APIs</p>
+                        </div>
+                        <div class="bg-paper border border-lavender/10 rounded-lg p-4">
+                            <h4 class="font-semibold text-lavender mb-2">Dynamic UI</h4>
+                            <p class="text-text-light text-sm">Real-time rendering of search results and movie details</p>
+                        </div>
+                        <div class="bg-paper border border-lavender/10 rounded-lg p-4">
+                            <h4 class="font-semibold text-lavender mb-2">Error Handling</h4>
+                            <p class="text-text-light text-sm">Graceful error handling and user feedback</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Future Projects -->
+        <section class="mb-16">
+            <div class="bg-paper-dark border border-seafoam/20 rounded-xl p-8">
+                <h2 class="text-2xl font-bold text-text-light mb-6">Future .NET Projects (Planned)</h2>
+                <p class="text-text-light mb-6">
+                    I'm continuously expanding my skills with planned projects to deepen my understanding of full-stack .NET development.
+                </p>
+                
+                <div class="space-y-6">
+                    <!-- Project 1 -->
+                    <div class="bg-paper border border-seafoam/10 rounded-lg p-6 hover:border-seafoam/30 transition-all">
+                        <h3 class="text-xl font-semibold text-seafoam-dark mb-2">ASP.NET Core MVC Blog CMS</h3>
+                        <p class="text-text-light text-sm mb-3">
+                            A full-featured content management system for blog management with user authentication, CRUD operations, and responsive design.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">ASP.NET Core</span>
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">MVC</span>
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">Entity Framework</span>
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">SQL Server</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="bg-paper border border-seafoam/10 rounded-lg p-6 hover:border-seafoam/30 transition-all">
+                        <h3 class="text-xl font-semibold text-seafoam-dark mb-2">To-do App using Entity Framework Core</h3>
+                        <p class="text-text-light text-sm mb-3">
+                            A modern task management application with real-time updates, user authentication, and database integration using EF Core.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">C#</span>
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">Entity Framework Core</span>
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">Razor Pages</span>
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">SQLite</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="bg-paper border border-seafoam/10 rounded-lg p-6 hover:border-seafoam/30 transition-all">
+                        <h3 class="text-xl font-semibold text-seafoam-dark mb-2">REST API with SQL Database</h3>
+                        <p class="text-text-light text-sm mb-3">
+                            Building a complete RESTful API with proper HTTP methods, authentication, and database integration following best practices.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">ASP.NET Web API</span>
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">REST</span>
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">JWT Authentication</span>
+                            <span class="inline-block px-3 py-1 bg-seafoam/10 text-seafoam-dark text-xs font-semibold rounded-full">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-8 pt-6 border-t border-seafoam/10">
+                    <p class="text-text-light text-sm italic">
+                        These projects represent my learning roadmap as I continue to develop my .NET and full-stack development skills.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-paper-light border-t border-lavender/10 py-10 mt-10">
+        <div class="text-center max-w-5xl mx-auto">
+            <p class="text-text-light font-bold">&copy; 2025 Jiaping Huang. All rights reserved</p>
+            <div class="flex justify-center gap-6 text-sm mt-4">
+                <a href="index.html" class="text-text-light hover:text-lavender transition-colors">Home</a>
+                <a href="projects.html" class="text-text-light hover:text-lavender transition-colors">Projects</a>
+                <a href="resume.html" class="text-text-light hover:text-lavender transition-colors">Resume</a>
+                <a href="https://github.com/20055662" class="text-text-light hover:text-lavender transition-colors">GitHub</a>
+                <a href="mailto:20055662@tafe.wa.edu.au" class="text-text-light hover:text-lavender transition-colors">Email</a>
+            </div>
+            <p class="mt-6 text-text-light text-sm opacity-80">
+                Built with <span class="text-lavender">TailwindCSS</span> • Hosted on GitHub Pages
+            </p>
+        </div>
+    </footer>
+    <script src="./assets/js/menu-btn.js" defer></script>
+    </body>
+</html>
