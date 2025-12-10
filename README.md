@@ -1,36 +1,30 @@
-<!-- Intro  -->
+<!-- Profile README for Jiaping Huang (20055662) -->
+
 <h3 align="center">
   <samp>&gt; Hi, I'm
-        <b><a target="_blank" href="https://github.com/20055662">Jiaping Huang</a></b>
+    <b><a target="_blank" href="https://github.com/20055662">Jiaping Huang</a></b>
   </samp>
 </h3>
 
-<p align="center"> 
+<p align="center">
   <samp>
-    「 A <b>Junior Software Developer</b> based in Perth, Western Australia, passionate about building clean, maintainable code. I enjoy learning new technologies and improving my programming skills while building  **portfolio-ready projects** that showcase practical coding solutions.」  
-    <br>
-    <br>
+    「 A <b>Junior Software Developer</b> based in Perth, Western Australia, passionate about building clean, maintainable code. I enjoy learning new technologies and improving my programming skills.」
   </samp>
 </p>
 
-
 <p align="center">
-    <i>Reach and ask me anything anytime:<i>
-    <br>
- <a href="mailto:kapinghuangau@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
- </a>
- <a href="https://www.linkedin.com/in/jiaping-huang-460585399/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
- </a>
- <a href="https://github.com/20055662" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
- </a>
+  <i>Reach and ask me anything anytime:</i>
+  <br>
+  <a href="mailto:kapinghuangau@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/jiaping-huang-460585399/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/20055662" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </p>
-
-<br />
-
-
 
 ## 🛠 Skills
 
@@ -58,11 +52,6 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
 
-<br/>
-<br/>
-<br/>
-
-
 ## GitHub activities
 
 <p align="center">
@@ -71,10 +60,4 @@
   </a>
 </p>
 
-<a> 
-
-  <a href="https://github.com/20055662"><img alt="Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=20055662&langs_count=8&layout=compact&theme=react&border_color=7F3FBF&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866"/></a>
-  <br/>
-</a>
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=20055662&custom_title=Jiaping%20Huang's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FBF&line=7F3FBF&point=7F3FBF&area_color=FFFFFF&title_color=FFFFFF&area=true)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=20055662&custom_title=Jiaping%20Huang's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FBF&line=7F3FBF)
